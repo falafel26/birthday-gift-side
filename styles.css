@@ -1,0 +1,124 @@
+#photu{
+  border-radius: 100%;
+  width: 150px;
+  border: 5px solid #EFB0C9;
+}
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    text-align:center;
+    font-family: "Happy Monkey", sans-serif;
+    /*background-color: #a2d2ff;*/
+    background: linear-gradient(blue, pink);
+    color: #ffffff;
+}
+h1, h2, h3, h4, p {
+  text-shadow: 1px 0px 0px black;
+}
+#age {
+  background: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+#date {
+  margin:0;
+  background: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+#header{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;  
+}
+.gift-section{
+  margin-top: 50px;
+}
+.gift-title{
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.gift-hint{
+  margin-top: 0;
+}
+#gift-1{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height: 400px;
+  border: 6px, white solid;
+  border-radius: 10px;
+  background-image: url('/images/Gift.jpg');
+  background-size: cover;
+}
+#gift-1:hover {
+  background-image: url("/images/happy.gif");
+  transition: background-image 1.25s ease-in-out;
+}
+#gift-2{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height: 400px;
+  border: 6px, white solid;
+  border-radius: 10px;
+  background-image: url('/images/Gift.jpg');
+  background-size: cover;
+}
+#gift-2:hover {
+  background-image: url("/images/HOT.gif");
+  transition: background-image 1.25s ease-in-out;
+}
+#gift-3{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height: 400px;
+  border: 6px, white solid;
+  border-radius: 10px;
+  background-image: url('/images/Gift.jpg');
+  background-size: cover;
+}
+#gift-3:hover {
+  background-image: url("/images/Genius.gif");
+  transition: background-image 1.25s ease-in-out;
+}
+#gift-4{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height: 400px;
+  border: 6px, white solid;
+  border-radius: 10px;
+  background-image: url('/images/Gift.jpg');
+  background-size: cover;
+}
+#gift-4:hover {
+  background-image: url("/images/Badass.gif");
+  transition: background-image 1.25s ease-in-out;
+}
+#gift-cheers{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height: 200px;
+  border: 6px, white solid;
+  border-radius: 10px;
+  background-image: url('/images/Gift.jpg');
+  background-size: cover;
+}
+#gift-cheers:hover {
+  background-image: url("/images/Cheers.gif");
+  transition: background-image 1.25s ease-in-out;
+}
+#footer{
+  font-style: italic;
+  margin: 40px auto 20px;
+}
+a{
+  color: white;
+}
